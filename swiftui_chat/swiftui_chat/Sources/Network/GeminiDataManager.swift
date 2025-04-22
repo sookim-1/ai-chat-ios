@@ -10,7 +10,7 @@ import Foundation
 struct GeminiDataManager {
 
     func responseCorrect(question: String) async throws -> String {
-        let urlString = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="
+        let urlString = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=\(Bundle.main.geminiAppKey)"
 
         var urlRequest = URLRequest(url: URL(string: urlString)!)
         urlRequest.httpMethod = "POST"

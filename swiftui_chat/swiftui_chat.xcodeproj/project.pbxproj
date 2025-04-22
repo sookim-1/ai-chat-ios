@@ -10,9 +10,23 @@
 		76E3E4892DB7A6F300C24D79 /* swiftui_chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		76E3E4E22DB7B17D00C24D79 /* Exceptions for "swiftui_chat" folder in "swiftui_chat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Sources/Network/APIKey.xcconfig,
+				"swiftui-chat-Info.plist",
+			);
+			target = 76E3E4882DB7A6F300C24D79 /* swiftui_chat */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		76E3E48B2DB7A6F300C24D79 /* swiftui_chat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				76E3E4E22DB7B17D00C24D79 /* Exceptions for "swiftui_chat" folder in "swiftui_chat" target */,
+			);
 			path = swiftui_chat;
 			sourceTree = "<group>";
 		};
@@ -127,6 +141,8 @@
 /* Begin XCBuildConfiguration section */
 		76E3E4952DB7A6F600C24D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 76E3E48B2DB7A6F300C24D79 /* swiftui_chat */;
+			baseConfigurationReferenceRelativePath = Sources/Network/APIKey.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -190,6 +206,8 @@
 		};
 		76E3E4962DB7A6F600C24D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 76E3E48B2DB7A6F300C24D79 /* swiftui_chat */;
+			baseConfigurationReferenceRelativePath = Sources/Network/APIKey.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -246,6 +264,8 @@
 		};
 		76E3E4982DB7A6F600C24D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 76E3E48B2DB7A6F300C24D79 /* swiftui_chat */;
+			baseConfigurationReferenceRelativePath = Sources/Network/APIKey.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -254,6 +274,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui_chat/Resource/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-chat-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Chatterly;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -278,6 +299,8 @@
 		};
 		76E3E4992DB7A6F600C24D79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 76E3E48B2DB7A6F300C24D79 /* swiftui_chat */;
+			baseConfigurationReferenceRelativePath = Sources/Network/APIKey.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +309,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui_chat/Resource/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftui-chat-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Chatterly;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

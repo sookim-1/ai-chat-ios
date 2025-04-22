@@ -63,6 +63,9 @@ struct RecentView: View {
                 InitialView()
             }
         }
+        .onAppear(perform: {
+            print(Bundle.main.geminiAppKey)
+        })
         .sheet(isPresented: $showChat) {
             ChatView()
         }
