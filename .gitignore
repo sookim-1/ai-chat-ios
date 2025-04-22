@@ -153,6 +153,6 @@ Temporary Items
 .apdisk
 
 ### 인증파일 ###
-.xcconfig
+*.xcconfig
 
 # End of https://www.toptal.com/developers/gitignore
